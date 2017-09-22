@@ -171,7 +171,7 @@ footer p {
 	}
 }
 
-@media only screen and (max-width: 470px) and (min-width:0px) {
+@media only screen and (max-width: 470px) {
 	#mainSectionBackground {
 		height: 15rem;
 	}
@@ -210,11 +210,4 @@ footer p {
 		width: 90%;
 	}
 
-}
-
-@media only screen and (max-width: 470px) {
-
-body {
-    font-size: 30px;
-}
 }
