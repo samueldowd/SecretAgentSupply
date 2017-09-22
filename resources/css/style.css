@@ -1,0 +1,220 @@
+html {
+	font-size: 18px;
+	font-family: Helvetica;
+}
+
+section {
+	width: 960px;
+	margin: 0px auto;
+}
+
+header {
+	background-color: black;
+}
+
+#headerContainer {
+	text-transform: uppercase;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 12px 0;
+}
+
+header img {
+	margin-left: 0.5rem;
+	margin-right: 1rem;
+	display: inline;
+	height: 1.5rem;
+}
+
+#logoName h1 {
+	display: inline;
+	margin-top: 0.66rem 0;
+	font-size: 1rem;
+	color: white;
+}
+
+#mainSectionBackground {
+	height: 25rem;
+	width: 100%;
+	background-image: url("../images/moto.jpeg");
+	background-size: cover;
+}
+
+#mainSectionTextBlock {
+	position: relative;
+	top: 9rem;
+	width: 20rem;
+	background-color: black;
+	padding: 2rem 3rem;
+}
+
+#mainSectionTextBlock h3 {
+	font-size: 1rem;
+	font-weight: bold;
+	color: white;
+	margin-bottom: .25rem;
+}
+
+#mainSectionTextBlock h2 {
+	font-size: 2rem;
+	font-weight: bold;
+	color: white;
+}
+
+.hiddenDesktop {
+	display: none;
+}
+
+#navBackground {
+	width: 100%;
+	background-color: firebrick;
+}
+
+#navigationArea {
+	padding: .75rem 0;
+}
+
+#navigationArea nav ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+#navigationArea nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+#productGrid {
+	height: 23rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.imageBlock {
+	
+	margin: 3rem 0;
+	width: 30%;
+	display: block;
+}
+
+.productImageBlock {
+	padding: 2rem 0;
+	border: 4px solid black;
+	height: 9em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.productImageBlock img {
+	max-width: 8rem;
+	margin: 0 auto;
+
+}
+
+.productNameBlock {
+	padding: 0.5rem 0;
+	text-align: center;
+	background-color: black;
+	color: white;
+	width: 100%;
+}
+
+#storeData {
+	margin: 3rem 0 4rem 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.storeDataBlock {
+	width: 35%;
+}
+
+.storeDataBlock h3 {
+	background-color: black;
+	color: white;
+	padding: 1rem 2rem;
+
+}
+
+footer {
+	background-color: black;
+	padding: 5rem 0;
+	width: 100%;
+}
+
+footer p {
+	color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+	body {
+		font-size: 16px;
+	}
+
+	.imageBlock {
+		width: 47%
+	}
+
+	#glasses {
+		display: none;
+	}
+
+	.hiddenTabletLandscape {
+		display: none;
+	}
+
+	.hiddenDesktop {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media only screen and (max-width: 470px) and (min-width:0px) {
+	#mainSectionBackground {
+		height: 15rem;
+	}
+
+	#mainSectionTextBlock {
+		position: relative;
+		top: 10rem;
+		width: 20rem;
+		background-color: black;
+		padding: 1rem 2rem;
+		height: 15rem;
+	}
+
+	#mainSectionTextBlock h3 {
+		font-size: 0.77rem;
+		font-weight: bold;
+		color: white;
+		margin-bottom: .25rem;
+	}
+
+	#mainSectionTextBlock h2 {
+		font-size: 1rem;
+		font-weight: bold;
+		color: white;
+	}
+
+	.imageBlock {
+		width: 90%
+	}
+
+	#watch {
+		display: none;
+	}
+
+	.storeDataBlock {
+		width: 90%;
+	}
+
+}
+
+@media only screen and (max-width: 470px) {
+
+body {
+    font-size: 30px;
+}
+}
