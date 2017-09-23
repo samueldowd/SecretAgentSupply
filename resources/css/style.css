@@ -148,30 +148,12 @@ footer p {
 	color: white;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 979px) {
+
 	body {
-		font-size: 16px;
+		font-size: 48px;
 	}
 
-	.imageBlock {
-		width: 47%
-	}
-
-	#glasses {
-		display: none;
-	}
-
-	.hiddenTabletLandscape {
-		display: none;
-	}
-
-	.hiddenDesktop {
-		display: flex;
-		justify-content: center;
-	}
-}
-
-@media only screen and (max-width: 470px) {
 	#mainSectionBackground {
 		height: 15rem;
 	}
@@ -199,7 +181,7 @@ footer p {
 	}
 
 	.imageBlock {
-		width: 90%
+		width: 90%;
 	}
 
 	#watch {
@@ -209,5 +191,29 @@ footer p {
 	.storeDataBlock {
 		width: 90%;
 	}
-
 }
+
+/*@media only screen and (max-width: 1024px) {
+	body {
+		font-size: 16px;
+	}
+
+	.imageBlock {
+		width: 47%;
+	}
+
+	#glasses {
+		display: none;
+	}
+
+	.hiddenTabletLandscape {
+		display: none;
+	}
+
+	.hiddenDesktop {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+*/
