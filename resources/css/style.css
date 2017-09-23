@@ -174,11 +174,11 @@ footer p {
 @media only screen and (max-width: 470px) {
 
 	body {
-		font-size: 48px;
+		font-size: 16px;
 	}
 
 	#mainSectionBackground {
-		height: 15rem;
+		height: 5rem;
 	}
 
 	#mainSectionTextBlock {
@@ -213,5 +213,13 @@ footer p {
 
 	.storeDataBlock {
 		width: 90%;
+	}
+
+	#storeData {
+		flex-direction: column;
+	}
+
+	footer {
+		text-align: center;
 	}
 }
